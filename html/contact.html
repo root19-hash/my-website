@@ -3,14 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Contact Mathason Library Printing Services, view our operating hours, and submit a print request using our online booking form."
+    />
+    <link rel="stylesheet" href="../css/style.css" />
 
-    <title>Contact & Booking - Mathason Library Printing Services</title>
+    <title>Contact &amp; Booking - Mathason Library Printing Services</title>
   </head>
 
   <body>
     <!-- Header: Main branding and website title -->
     <header>
-      <h1>Contact & Booking</h1>
+      <h1>Contact &amp; Booking</h1>
       <p>Get in touch with us and book your printing service</p>
     </header>
 
@@ -21,7 +26,7 @@
         <li><a href="about.html">About Us</a></li>
         <li><a href="services.html">Services</a></li>
         <li><a href="gallery.html">Gallery</a></li>
-        <li><a href="contact.html">Contact & Booking</a></li>
+        <li><a href="contact.html">Contact &amp; Booking</a></li>
       </ul>
     </nav>
 
@@ -53,7 +58,7 @@
         </p>
       </section>
 
-      <!-- Operating Hours -->
+      <!-- Operating Hours: now presented as a table -->
       <section>
         <h2>Operating Hours</h2>
 
@@ -62,32 +67,39 @@
           operating hours:
         </p>
 
-        <ul>
-          <li>
-            <strong>Monday - Thursday:</strong>
-            8:00 AM - 10:00 PM
-          </li>
-
-          <li>
-            <strong>Friday:</strong>
-            8:00 AM - 4:00 PM
-          </li>
-
-          <li>
-            <strong>Saturday:</strong>
-            1:00 PM - 5:00 PM
-          </li>
-
-          <li>
-            <strong>Sunday:</strong>
-            1:00 PM - 5:00 PM
-          </li>
-
-          <li>
-            <strong>Public Holidays:</strong>
-            Operating hours are specifically announced closer to the dates.
-          </li>
-        </ul>
+        <table>
+          <caption>
+            Mathason Library Printing Service Operating Hours
+          </caption>
+          <thead>
+            <tr>
+              <th scope="col">Day</th>
+              <th scope="col">Hours</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Monday - Thursday</td>
+              <td>8:00 AM - 10:00 PM</td>
+            </tr>
+            <tr>
+              <td>Friday</td>
+              <td>8:00 AM - 4:00 PM</td>
+            </tr>
+            <tr>
+              <td>Saturday</td>
+              <td>1:00 PM - 5:00 PM</td>
+            </tr>
+            <tr>
+              <td>Sunday</td>
+              <td>1:00 PM - 5:00 PM</td>
+            </tr>
+            <tr>
+              <td>Public Holidays</td>
+              <td>Announced closer to the dates</td>
+            </tr>
+          </tbody>
+        </table>
 
         <p>
           Please check for the latest public holiday announcement before
@@ -107,75 +119,55 @@
         <form action="#" method="post">
           <!-- Full Name -->
           <label for="name">Full Name:</label>
-          <br />
           <input type="text" id="name" name="name" required />
-          <br /><br />
 
           <!-- Student/Staff ID -->
           <label for="student-id">Student/Staff ID:</label>
-          <br />
           <input type="text" id="student-id" name="student-id" required />
-          <br /><br />
 
           <!-- Email -->
           <label for="email">Email Address:</label>
-          <br />
           <input type="email" id="email" name="email" required />
-          <br /><br />
 
           <!-- Phone -->
           <label for="phone">Phone Number:</label>
-          <br />
           <input type="tel" id="phone" name="phone" required />
-          <br /><br />
 
           <!-- Document Name -->
           <label for="document-name">Document Name:</label>
-          <br />
           <input type="text" id="document-name" name="document-name" required />
-          <br /><br />
 
           <!-- Printing Service -->
           <label for="service">Select a Service:</label>
-          <br />
           <select id="service" name="service" required>
             <option value="">-- Please Select --</option>
             <option value="black-white">Black and White Printing</option>
             <option value="colour">Colour Printing</option>
             <option value="photocopying">Photocopying</option>
           </select>
-          <br /><br />
 
           <!-- Number of Copies -->
           <label for="copies">Number of Copies:</label>
-          <br />
           <input type="number" id="copies" name="copies" min="1" required />
-          <br /><br />
 
           <!-- Print Type -->
           <label for="print-type">Print Type:</label>
-          <br />
           <select id="print-type" name="print-type" required>
             <option value="">-- Please Select --</option>
             <option value="single-sided">Single-Sided</option>
             <option value="double-sided">Double-Sided</option>
           </select>
-          <br /><br />
 
           <!-- Paper Size -->
           <label for="paper-size">Paper Size:</label>
-          <br />
           <select id="paper-size" name="paper-size" required>
             <option value="">-- Please Select --</option>
             <option value="a4">A4</option>
             <option value="a3">A3</option>
           </select>
-          <br /><br />
 
           <!-- Additional Instructions -->
-          <label for="message"> Additional Instructions: </label>
-          <br />
-
+          <label for="message">Additional Instructions:</label>
           <textarea
             id="message"
             name="message"
@@ -183,8 +175,6 @@
             cols="40"
             placeholder="Enter any additional printing instructions..."
           ></textarea>
-
-          <br /><br />
 
           <!-- Submit button -->
           <button type="submit">Submit Print Request</button>
