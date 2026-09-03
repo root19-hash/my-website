@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Explore printing services at Mathason Library: black and white printing, colour printing, photocopying, paper sizes and print types available."
+      content="Explore printing services at Matheson Library: black and white printing, colour printing, photocopying, paper sizes and print types available."
     />
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="icon" type="image/png" href="../images/favicon.png" />
 
-    <title>Services - Mathason Library Printing Services</title>
+    <title>Services - Matheson Library Printing Services</title>
   </head>
 
   <body>
@@ -25,7 +25,7 @@
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About Us</a></li>
-        <li><a href="services.html">Services</a></li>
+        <li><a href="services.html" aria-current="page">Services</a></li>
         <li><a href="gallery.html">Gallery</a></li>
         <li><a href="contact.html">Contact &amp; Booking</a></li>
       </ul>
@@ -34,48 +34,58 @@
     <!-- Main: The primary content area of the page -->
     <main>
       <!-- Task 1: Finding Printing Service Information -->
-      <section>
-        <h2>Our Printing Services</h2>
+      <section aria-labelledby="services-heading">
+        <h2 id="services-heading">Our Printing Services</h2>
 
         <p>
-          Mathason Library Printing Services offers a range of printing and
+          Matheson Library Printing Services offers a range of printing and
           photocopying options to help students, staff, and library users with
           their academic and personal printing needs.
         </p>
 
-        <!-- Black and White Printing -->
-        <article>
-          <h3>Black and White Printing</h3>
+        <!-- Printing & Copying Services -->
+        <table>
+          <caption>
+            Printing &amp; Copying Services and Prices
+          </caption>
+          <thead>
+            <tr>
+              <th scope="col">Service</th>
+              <th scope="col">Price</th>
+              <th scope="col">Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Black and White Printing</td>
+              <td>K0.50 / page</td>
+              <td>
+                Affordable black and white printing for assignments, notes,
+                reports, study materials, and other documents.
+              </td>
+            </tr>
+            <tr>
+              <td>Colour Printing</td>
+              <td>K1.00 / page</td>
+              <td>
+                High-quality colour printing for presentations, posters,
+                projects, and documents that need a professional appearance.
+              </td>
+            </tr>
+            <tr>
+              <td>Photocopying</td>
+              <td>K0.20 / page</td>
+              <td>
+                Photocopying services are available for study materials,
+                documents, notes, and other suitable materials.
+              </td>
+            </tr>
+          </tbody>
+        </table>
 
-          <p>
-            Affordable black and white printing for assignments, notes, reports,
-            study materials, and other documents.
-          </p>
-        </article>
-
-        <!-- Colour Printing -->
-        <article>
-          <h3>Colour Printing</h3>
-
-          <p>
-            High-quality colour printing for presentations, posters, projects,
-            and documents that need a professional appearance.
-          </p>
-        </article>
-
-        <!-- Photocopying -->
-        <article>
-          <h3>Photocopying</h3>
-
-          <p>
-            Photocopying services are available for study materials, documents,
-            notes, and other suitable materials.
-          </p>
-        </article>
-
-        <!-- Paper Sizes and Print Types: now presented as a table -->
-        <article>
-          <h3>Paper Sizes and Print Types</h3>
+        <!-- Paper Sizes and Print Types: presented as a table -->
+        <article aria-labelledby="paper-sizes-heading">
+          <h3 id="paper-sizes-heading">Paper Sizes and Print Types</h3>
 
           <p>
             The table below summarises the paper sizes and print type options
@@ -110,8 +120,8 @@
         </article>
 
         <!-- Instructions -->
-        <article>
-          <h3>How to Use the Printing Service</h3>
+        <article aria-labelledby="how-to-heading">
+          <h3 id="how-to-heading">How to Use the Printing Service</h3>
 
           <ol>
             <li>Prepare the document you want to print.</li>
@@ -129,9 +139,9 @@
         </article>
       </section>
 
-      <!-- Aside: Complementary content -->
-      <aside>
-        <h3>Quick Updates</h3>
+      <!-- Aside: Complementary content related to this page -->
+      <aside aria-labelledby="quick-updates-heading">
+        <h3 id="quick-updates-heading">Quick Updates</h3>
 
         <p>
           Before visiting the library, check our Services page for available
@@ -148,7 +158,7 @@
     <!-- Footer: Copyright and metadata info -->
     <footer>
       <p>
-        &copy; 2026 Mathason Library Printing Services. Designed for IS229
+        &copy; 2026 Matheson Library Printing Services. Designed for IS229
         Assessment 2.
       </p>
     </footer>
