@@ -181,3 +181,32 @@ footer {
   padding: 1.5rem 1rem;
   font-size: 0.95rem;
 }
+
+/* Contact & Booking page: address and map */
+address {
+  font-style: normal;
+  margin: 1rem 0;
+  line-height: 1.6;
+}
+
+.map-figure {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  margin: 1rem 0;
+  text-align: left;
+}
+
+.map-figure iframe {
+  width: 100%;
+  height: 450px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  display: block;
+}
+
+.map-figure figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #555;
+}
