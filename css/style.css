@@ -15,15 +15,28 @@ body {
 }
 
 header {
+  background-image:
+    linear-gradient(rgba(77, 15, 28, 0.85), rgba(77, 15, 28, 0.85)),
+    url("../images/Header\ Background.png");
+  background-size: cover;
+  background-position: center;
   background-color: #4d0f1c;
   color: #ffffff;
-  padding: 1.5rem 1rem;
+  padding: 3rem 1rem;
   text-align: center;
 }
 
 header h1 {
   margin: 0 0 0.25rem 0;
   font-size: 3rem;
+  font-weight: bold;
+}
+
+header p {
+  font-size: 1.3rem;
+  margin: 0;
+  font-weight: bold;
+  font-style: italic;
 }
 
 nav {
@@ -48,8 +61,9 @@ nav a {
   display: block;
   color: #ffffff;
   text-decoration: none;
-  padding: 0.9rem 1.2rem;
-  font-size: 1rem;
+  padding: 1.3rem 2rem;
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 
 nav a:hover,
