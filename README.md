@@ -23,6 +23,12 @@ The main users of this website are:
 - **Accessibility:** Uses descriptive image `alt` text, meaningful links, metadata, and logical headings.
 - **CSS Styling:** Uses an external stylesheet for consistent layout, typography, spacing, and readability.
 
+## Project Links
+
+Published Website URL: https://root19-hash.github.io/my-website/ - Live Link Site
+
+GitHub Repository URL: https://github.com/root19-hash/my-website
+
 ## Usage
 
 ### Realistic User Tasks
