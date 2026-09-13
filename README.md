@@ -105,7 +105,7 @@ The website pages were tested using the W3C HTML Validator.
 ## AI Use Declaration
 
 - Gemini Notebook Tools was used to understand the assignment.
-- Claude was initially used to develop the first structures for the HTML and CSS files. It was also used to debug and assist with some tasks, such as understanding how to add images and photos and how to organise them. It was also used to structure my working HTML files.
+- Claude was initially used to develop the first structures for the HTML and CSS files. It was also used to debug and assist with some tasks, such as understanding how to add images and photos and how to organize them. It was also used to structure my working HTML files.
 
 ## Project Structure
 
