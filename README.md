@@ -112,12 +112,13 @@ The website pages were tested using the W3C HTML Validator.
 ```text
 my-website/
 ├── style.css
-├── html/
-│   ├── about.html
-│   ├── contact.html
-│   ├── gallery.html
-│   ├── index.html
-│   └── services.html
+|
+|── about.html
+|── contact.html
+|── gallery.html
+|── index.html
+|── services.html
+|
 ├── images/
 │   ├── Black & White Printed.jpg
 │   ├── Colored.png
